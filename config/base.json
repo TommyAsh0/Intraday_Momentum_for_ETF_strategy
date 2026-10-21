@@ -1,0 +1,19 @@
+{
+  "symbol": "510300.SH",
+  "data_dir": "../Intraday_Momentum_for_ETF/data/processed",
+  "start": "2017-01-01",
+  "end": "2025-12-31",
+  "lookback": 14,
+  "vol_mult": 1.0,
+  "grid": "g30",
+  "stop_mode": "opp_band",
+  "sizing": "fixed",
+  "sigma_target": 0.02,
+  "max_leverage": 4.0,
+  "vol_lookback": 14,
+  "commission_rate": 0.0001,
+  "slippage_per_share": 0.001,
+  "lot_size": 100,
+  "initial_capital": 1000000.0,
+  "results_root": "data/results"
+}
